@@ -24,7 +24,9 @@ function App() {
               name: 'Все задачи',
               active: true
           },
-    ]} />
+    ]}
+
+    />
     <List
         items={[
           {
@@ -39,7 +41,9 @@ function App() {
             color: 'pink',
             name: 'Фильмы и сериалы'
           }
-    ]} />
+    ]}
+    isRemovable
+    />
     </div>
     <div className="todo__tasks"></div>
   </div>
